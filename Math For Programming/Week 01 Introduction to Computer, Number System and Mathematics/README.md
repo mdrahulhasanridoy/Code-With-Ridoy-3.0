@@ -512,6 +512,6 @@ So, we only need to check for 2 to 10
 	- i = 4 ➡️ Floor(n/10000)%10 = 9
 
 - Genaeral formula
-```math
+```
 Floor(n/10^i) % 10 = ⌊n/10^i⌋ % 10
 ```
