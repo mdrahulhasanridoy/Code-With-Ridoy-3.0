@@ -262,7 +262,7 @@ pie title 90 degrees
 ```mermaid
 pie tile Less than 90 degrees
 	"Acute Angle" : 45
-	"Other Angles" : 315
+	"Other Angles" : 225
 ```
 
 ```mermaid
@@ -301,7 +301,7 @@ In one dimensional coordinate system, we can only move in one direction. We can 
 	- Horizontal : X axis
 	- Vertical : Y axis
 
-```math
+```mermaid
        y↑
        3┊
        2┊
