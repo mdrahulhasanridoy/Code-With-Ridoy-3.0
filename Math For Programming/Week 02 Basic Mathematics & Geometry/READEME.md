@@ -260,7 +260,7 @@ pie title 90 degrees
 ```
 
 ```mermaid
-pie tile Less than 90 degrees
+pie title Less than 90 degrees
 	"Acute Angle" : 30
 	"Other Angles" : 330
 ```
@@ -308,7 +308,5 @@ In one dimensional coordinate system, we can only move in one direction. We can 
        1┊
 ←┉┉┉┉┉┉┉┊┉┉┉┉┉┉┉┉→
  -1-2 -3┊0 1 2 3 x
-		┊
-        ┊
 		↓
 ```
