@@ -151,9 +151,9 @@ b^x = b * b * b * b *...* b (x times)
 ```math
 5^3 = 5 * 5 * 5 = 125
 ```
-Root:
+Root:(nth root of a)
 ```math
-Root: n\sqrt{a} (nth root of a)
+Root: n\sqrt{a} 
 ```
 - Assume: n√a = x
 - Then: x^n = a
