@@ -138,3 +138,16 @@ Where is the 5 located?
 ```math
 \matrix{Midterm+Final} = \begin{bmatrix} 40 & 36 \\ 28 & 32 \\ 30 & 27 \end{bmatrix}+ \begin{bmatrix} 19 & 35 \\ 48 & 12 \\ 33 & 48 \end{bmatrix} = \begin{bmatrix} 59 & 71 \\ 76 & 44 \\ 63 & 75 \end{bmatrix}
 ```
+# Power And Roots
+
+```math
+Power: b^x
+```
+- Base and exponent
+
+```math
+b^x = b * b * b * b *...* b (x times)
+```
+```math
+5^3 = 5 * 5 * 5 = 125
+```
