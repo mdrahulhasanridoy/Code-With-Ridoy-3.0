@@ -164,3 +164,70 @@ Root: n\sqrt{a}
 ```math
 4^2 = 16
 ```
+# Introduction To Sets
+
+- A set is a collection of objects
+   - No specific order or index
+- Objects in a set are called elements
+- Example: 
+	- Natual number set: { 1, 2, 3, ...}   ➡️ Infinite set
+	- Name of favorite sports: { Cricket, Football, Tennis } ➡️ Finite set
+
+# Intro To Sets
+
+- Subset
+	- A is a subset of B if all elements of A are also in B
+	- A = {10, 12, 29} and B = { 101, 12, 10, 29, 32 }
+
+- Universal Set
+	- When taking about numbers, universal set might be the set of Real Numbers
+	- In case of set of favorite sports, universal set might be the set of all sports
+
+- Empty / Null Set
+	- A set with no elements
+	- Example: { } or ∅
+
+- U = { 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13 }
+- A = { 1, 2, 3, 4, 7 }
+- B = { 3, 4, 5, 6 }
+- C = { 4, 6, 7, 8, 9 }
+
+- Three Set operations:
+	- Union ➡️ ( A ∪ B ) = { 1, 2, 3, 4, 5, 6, 7 }
+	- Intersection ➡️ ( A ∩ B ) = { 3, 4 }
+	- Complement ➡️ ( A' ) = U - A = { 5, 6, 8, 9, 10, 11, 12, 13 }
+
+# Point
+
+- A point is a location in space
+- Just a dot
+- Location only
+- No lenght, width, shape, size
+
+```mermaid
+%%{init: { 'logLevel': 'debug', 'theme': 'drak', 'gitGraph': {'showBranches': true, 'showCommitLabel':true,'mainBranchName': 'Point'}} }%%
+      gitGraph
+        
+        commit id:"This is a point"
+```
+# Line
+
+- A line is a set of points
+- Connect them
+- Take the straight path
+	- Also the shortest path
+- This is called line segment
+
+```mermaid
+%%{init: { 'logLevel': 'debug', 'theme': 'drak', 'gitGraph': {'showBranches': true, 'showCommitLabel':true,'mainBranchName': 'Segment'}} }%%
+      gitGraph
+        
+        commit id:"1"
+		commit id:"2"
+```
+- This is called line segment
+    - Finite length
+
+ ```math
+ <━━━━━━━━━━━━━━━>
+ ```
