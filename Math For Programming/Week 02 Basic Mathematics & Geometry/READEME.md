@@ -308,5 +308,4 @@ In one dimensional coordinate system, we can only move in one direction. We can 
        1┊
 ←┉┉┉┉┉┉┉┊┉┉┉┉┉┉┉┉→
  -1-2 -3┊0 1 2 3 x
-		↓
 ```
