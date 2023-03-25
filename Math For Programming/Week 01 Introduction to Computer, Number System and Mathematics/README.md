@@ -513,5 +513,5 @@ So, we only need to check for 2 to 10
 
 - Genaeral formula
 ```math
-Floor(n/10^i)%10 = ⌊n/10^i⌋%10
+Floor(n/10^i) % 10 = ⌊n/10^i⌋ % 10
 ```
