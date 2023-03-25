@@ -70,12 +70,14 @@ n! = n * (n-1) * (n-2) * (n-3) * .... * 3 * 2 * 1
 - Example: 4! = 4 * 3 * 2 * 1 = 24
 - Exception: 0! = 1
 
+```
 - 5! = 120 ➡️ divide it by 5 to get 24
 - 4! = 24 ➡️ divide it by 4 to get 6
 - 3! = 6 ➡️ divide it by 3 to get 2
 - 2! = 2 ➡️ divide it by 2 to get 1
 - 1! = 1 ➡️ divide it by 1 to get 1
 - 0! = 1 
+```
 
 - Consider a cricket team with 11 players
 - How many batting orders are possible?
@@ -119,13 +121,15 @@ Where is the 5 located?
 - Column Matrix
 	- A matrix with 1 column
 	- Example: 
-$$\matrix{A} = \begin{bmatrix} 1 \\ 2 \\ 3 \\ 4 \end{bmatrix}$$
-
+```math
+\matrix{A} = \begin{bmatrix} 1 \\ 2 \\ 3 \\ 4 \end{bmatrix}
+```
 - Row Matrix
 	- A matrix with 1 row
 	- Example: 
-$$\matrix{A} = \begin{bmatrix} 1 & 2 & 3 & 4 \end{bmatrix}$$
-
+```math
+\matrix{A} = \begin{bmatrix} 1 & 2 & 3 & 4 \end{bmatrix}
+```
 # Adding Matrices
 
 - Rows indicate individual students ( 3 students )
