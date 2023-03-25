@@ -1,0 +1,167 @@
+{
+  "main": {
+    "id": "f70e6501232569a0",
+    "type": "split",
+    "children": [
+      {
+        "id": "f65b021e5c26299a",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "0698253955013914",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Math For Programming/Week 02 Basic Mathematics & Geometry/READEME.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "a7e85e53df38ab6d",
+    "type": "split",
+    "children": [
+      {
+        "id": "e80122a0940db3bb",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "3ccfbd7b6b37b3bd",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "85722be539b1c5b2",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "6513ad698df78535",
+            "type": "leaf",
+            "state": {
+              "type": "starred",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "right": {
+    "id": "718c2ec2deb2b79d",
+    "type": "split",
+    "children": [
+      {
+        "id": "3ee3eb3099d5e6e4",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "a647dd76c2fa155d",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Math For Programming/Week 02 Basic Mathematics & Geometry/READEME.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "43238c1c1e8ccc0e",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Math For Programming/Week 02 Basic Mathematics & Geometry/READEME.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "58a5c5b8abff8a46",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "64d337942e3ae12f",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Math For Programming/Week 02 Basic Mathematics & Geometry/READEME.md"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "table-editor-obsidian:Advanced Tables Toolbar": false
+    }
+  },
+  "active": "0698253955013914",
+  "lastOpenFiles": [
+    "Math For Programming/Week 01 Introduction to Computer, Number System and Mathematics/Mid Term Exam/READEME.md",
+    "Math For Programming/Week 01 Introduction to Computer, Number System and Mathematics/README.md",
+    "Math For Programming/Week 02 Basic Mathematics & Geometry/READEME.md",
+    "Math For Programming/Week 01 Introduction to Computer, Number System and Mathematics/Mid Term Exam/New Text Document.txt",
+    "Math For Programming/Week 01 Introduction to Computer, Number System and Mathematics/Mid Term Exam",
+    "Math For Programming/Week 01 Introduction to Computer, Number System and Mathematics/New folder",
+    "README.md",
+    "Math For Programming/README.md",
+    "Math For Programming/Week 01 Introduction to Computer, Number System and Mathematics",
+    "Math For Programming/Week 01 Intro",
+    "Math For Programming/New folder",
+    "Untitled.md",
+    "Codeforces/READEME.md"
+  ]
+}
