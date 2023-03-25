@@ -151,3 +151,16 @@ b^x = b * b * b * b *...* b (x times)
 ```math
 5^3 = 5 * 5 * 5 = 125
 ```
+Root:
+```math
+Root: n\sqrt{a} (nth root of a)
+```
+- Assume: n√a = x
+- Then: x^n = a
+
+```math
+2\sqrt{16} = 4
+```
+```math
+4^2 = 16
+```
