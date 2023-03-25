@@ -228,6 +228,87 @@ Root: n\sqrt{a}
 - This is called line segment
     - Finite length
 
+- Line : extended in both ends
+    - Infinite length
+
  ```math
  <━━━━━━━━━━━━━━━>
  ```
+
+- Ray : extended in one end
+	- Infinite length
+
+ ```math
+ ━━━━━━━━━━━━━━━>
+ ```
+
+# Angles Coordinate Systems Intro
+
+- Between two rays extending from a common point
+- Circular arc to annotate
+- Full rotation is 360 degrees
+
+```mermaid
+pie title 360 degrees
+    "Full rotation" : 360
+```
+
+```mermaid
+pie title 90 degrees
+	"Right Angle" : 90
+	"Other Angles" : 270
+```
+
+```mermaid
+pie tile Less than 90 degrees
+	"Acute Angle" : 45
+	"Other Angles" : 315
+```
+
+```mermaid
+pie title More than 90 degrees
+	"Obtuse Angle" : 135
+	"Other Angles" : 225
+```
+# Coordinate Systems
+
+- One Dimensional Coordinate System
+
++3 is located at the right
+0 is located at the center
+-3 is located at the left
+
+```mermaid
+%%{init: { 'logLevel': 'debug', 'theme': 'drak', 'gitGraph': {'showBranches': true, 'showCommitLabel':true,'mainBranchName': 'Number Line'}} }%%
+      gitGraph
+        
+        commit id:"-3"
+        commit id:"-2"
+         commit id:"-1"
+          commit type: HIGHLIGHT id:"0"
+           commit id:"+1"
+            commit id:"+2"
+             commit id:"+3"
+        
+```
+In one dimensional coordinate system, we can only move in one direction. We can only move left or right. We can't move up or down.
+
+# 3D Coordinate Systems
+
+- 2D Coordinate System
+- Take two perpendicular lines
+    - Right angle/ 90 degrees
+	- Horizontal : X axis
+	- Vertical : Y axis
+
+```math
+       y↑
+       3┊
+       2┊
+       1┊
+←┉┉┉┉┉┉┉┊┉┉┉┉┉┉┉┉→
+ -1-2 -3┊0 1 2 3 x
+		┊
+        ┊
+		↓
+```
