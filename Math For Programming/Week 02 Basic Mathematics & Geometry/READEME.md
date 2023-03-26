@@ -876,3 +876,37 @@ n &= 15 \\
 \end{align*}
 ```
 # Probability
+
+- Probability is a number to indicate the change or likelihood of a particular event.
+- Event: outcome of an experiment or process
+
+```
+- The number is between 0 and 1
+	- 0 means the event is impossible
+	- 1 means the event is certain
+```
+```math
+P(event) = /frac{Number of ways it can happen}{Number of all possible outcomes}
+```
+
+```
+What is the probability of getting a prime number if you throw a 6-faced dice?
+```
+- All Possible Outcomes: 1, 2, 3, 4, 5, 6
+- Target Outcomes / Prime Numbers: 2, 3, 5
+
+```math
+P = \frac{3}{6} = \frac{1}{2} = 0.5
+```
+
+```
+What is the probability of getting exactly 2 heads if you throw three coins?
+```
+- Outcomes of single coin: H, T
+- Outcomes of Two coins: HH, HT, TH, TT
+
+| | H | T |
+| --- | --- | --- |
+| H | HH | HT |
+| T | TH | TT |
+
