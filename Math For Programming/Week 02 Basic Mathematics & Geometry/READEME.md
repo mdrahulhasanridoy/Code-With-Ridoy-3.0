@@ -464,15 +464,85 @@ Area = Length * Height
 - 1 point and 1 line segment
 - 360 degrees
 - 2π radians
+- Radius is the distance from the center to the edge of the circle
+- Diameter is the distance from one edge to the other edge of the circle
 
 ```mermaid
 pie title 360 degrees
     "Full rotation" : 360
 ```
-```mermaid
-pie title 2π radians
-	"Full rotation" : 2π
-```
+
 ```math
 Area = π * (Radius)^2
+```
+# Series
+
+- Sequnce: List of numbers with some order or pattern
+    - 1, 3, 5, 7, 9
+	- 1, 1, 2, 3, 5, 8, 13, ...
+
+" Fibonacci Sequence or Fibonacci Series "
+
+Series: Sum of elements in a sequence
+```math
+S¹ = 1 + 3 + 5 + 7 + 9
+```
+```math
+S² = 1 + 1 + 2 + 3 + 5 + 8 + 13 + ...
+```
+- Finite vs. Infinite Series
+    - S¹ is finite
+	- S² is infinite
+- Arithmetic Series vs. Geometric Series
+	
+	Arithmetic Series
+	```math
+	1 + 6 + 11 + 16 + 21 + 26 + 31 + ...
+	```
+	Geometric Series
+	```math
+	2 + 6 + 18 + 54 + 162 + 486 + ...
+	```
+
+# Sum of natural numbers
+
+- 1+2+3+...+n = ? ( This is a Arithmetic Series )
+
+- Easy way to solve this problem
+
+```
+```
+1 + 2 + 3 + 4 + 5 = ?
+Let,
+```
+```math
+S = 1 + 2 + 3 + 4 + 5
+```
+```math
+S = 5 + 4 + 3 + 2 + 1
+```
+```math
+(+),2S = 6 + 6 + 6 + 6 + 6
+```
+```math
+2S = 6*5
+```math
+S = 30
+```
+- Advanced way to solve this problem
+
+```math
+S = 1 + 2 + 3 + ... + N
+```
+```math
+S = N + (N-1) + (N-2) + ... + 1
+```
+```math
+(+),2S = (N+1) + (N+1) + (N+1) + ... + (N+1)
+```
+```math
+2S = (N+1) * N
+```
+```math
+S = (N+1) * N / 2
 ```
