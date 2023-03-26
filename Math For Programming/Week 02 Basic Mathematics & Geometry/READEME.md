@@ -301,11 +301,106 @@ In one dimensional coordinate system, we can only move in one direction. We can 
 	- Horizontal : X axis
 	- Vertical : Y axis
 
+|     |     |     |     | y   | ⬆️  |     |     |     |     |     |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+|     |     |     |     | 4   | ⬆️  |     |     |     |     |     |
+|     |     |     |     | 3   | ⬆️  |     |     |     |     |     |
+|     |     |     |     | 2   | ⬆️  |     |     |     |     |     |
+|     |     |     |     | 1   | ⬆️  | 1   | 2   | 3   | 4   | x   |
+| ⬅️  | ⬅️  | ⬅️  | ⬅️  | ⬅️  | 0   | ➡️  | ➡️  | ➡️  | ➡️  | ➡️  |
+| x'  | -4  | -3  | -2  | -1  | ⬇️  | -1  |     |     |     |     |
+|     |     |     |     |     | ⬇️  | -2  |     |     |     |     |
+|     |     |     |     |     | ⬇️  | -3  |     |     |     |     |
+|     |     |     |     |     | ⬇️  | -4  |     |     |     |     |
+|     |     |     |     |     | ⬇️  | y'  |     |     |     |     |
+
+-  3D Coordinate System
+- 90 degrees (angle) between X and Y axis
+- 90 degrees (angle) between Y and Z axis
+- 90 degrees (angle) between Z and X axis
+
+|     |     |     |     | y   | ⬆️  |     |     |     | z   | ↗️  |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+|     |     |     |     |     | ⬆️  |     |     |     | ↗️  |     |
+|     |     |     |     |     | ⬆️  |     |     | ↗️  |     |     |
+|     |     |     |     |     | ⬆️  |     | ↗️  |     |     |     |
+|     |     |     |     |     | ⬆️  | ↗️  |     |     |     | x   |
+| ⬅️  | ⬅️  | ⬅️  | ⬅️  | ⬅️  | 🎈  | ➡️  | ➡️  | ➡️  | ➡️  | ➡️  |
+| x'  |     |     |     | ↙️  | ⬇️  |     |     |     |     |     |
+|     |     |     | ↙️  |     | ⬇️  |     |     |     |     |     |
+|     |     | ↙️  |     |     | ⬇️  |     |     |     |     |     |
+|     | ↙️  |     |     |     | ⬇️  |     |     |     |     |     |
+| ↙️  | z'  |     |     |     | ⬇️  | y'  |     |     |     |     |
+
+3D Coordinate System is hard to explain in plain text. It's easy in real life. 
+
+# Triangle
+- 3 points and 3 line segments
+- Sum of three angles is 180 degrees
+
 ```
-       y↑
-       3┊
-       2┊
-       1┊
-←┉┉┉┉┉┉┉┊┉┉┉┉┉┉┉┉→
- -1-2 -3┊0 1 2 3 x
+    A
+   / \
+  /   \
+ /     \
+B───────C
+```
+```math
+Area = 1/2 * Base * Height
+```
+```
+    A
+   /|\
+  / | \
+ /  |⬅️\  Height
+B───|───C
+  ⬆️Base
+```
+- Isosceles Triangle
+	- Two sides are equal
+	- Two angles are equal
+- Equilateral Triangle
+	- All sides are equal
+	- All angles are equal
+- Right-Angle Triangle
+	- One angle is 90 degrees
+	- Hypotenuse is the longest side
+- Scalene Triangle
+	- No sides are equal
+	- No angles are equal
+
+# Square
+
+- 4 sides and 4 line segments
+- All sides are equal
+- Each angle is 90 degrees
+- Sum of all angles is 360 degrees
+
+```
+A ── B
+│   │
+C ── D
+```
+
+```math
+Area = (Side_length)^2 = a^2
+```
+```math
+Length of diagonal = \sqrt{2} * (Side_length)
+```
+# Pythagorean Theorem
+
+```
+	  A
+     / \
+    /   \
+   /     \
+  /       \
+ B\	      /D───────E
+   \     / |       |
+    \   /  |       |
+	 \ /   |       |
+	  C────F───────G
+	  |    |
+	  H────I
 ```
