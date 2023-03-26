@@ -546,3 +546,225 @@ S = N + (N-1) + (N-2) + ... + 1
 ```math
 S = (N+1)*N / 2
 ```
+# Sum of arithmetic series
+
+## Series ( Finite Sum)
+
+- Arithmetic Series
+```math
+S = 2 + 5 + 8 + ...
+```
+```
+1. Find the 100th number in this series
+2. Find the sum of the first 100 numbers in this series
+```
+- First Question
+
+```math
+nth term in an arithmetic series = a + (n-1)d
+```
+```math
+100th number in this series = 2 + (100-1)3
+```
+	- a means the first number in the series
+	- d means the difference between two consecutive numbers in the series
+	- n means the position of the number in the series
+
+- Second Question
+
+```math
+Sum of first n terms in an arithmetic series = n/2 * {2a + (n-1)d}
+```
+```math
+Sum of first 100 numbers in this series = 100/2 * {2(2) + (100-1)(3)} = 100/2 * {4 + 297} = 100/2 * 301 = 15050
+```
+# Unitary Method
+
+- Find value for single unit
+- Then multiply for necessary units
+
+```
+You and your 6 friends went to a restaurant. All ordered the same meal, and the total bill was 1218Taka. Now if you go there with your 2 best friends and have the same meal, what would be the bill this time?
+```
+- Solution
+
+```math
+Cost for 7 people = 1218
+```
+```math
+Cost for 1 person = 1218/7 = 174
+```
+```math
+Cost for 3 people = 174 * 3 = 522
+```
+```
+Tom finished his homework within 15 hours while Jerry takes 10 hours. How many hours will the same homework take to be done if they work together?
+```
+- Solution
+
+```math
+Tom's 15 hour of work ≡ 1 homework
+```
+```math
+Tom's 1 hour of work ≡ 1/15 homework
+```
+```math
+Jerry's 10 hour of work ≡ 1 homework
+```
+```math
+Jerry's 1 hour of work ≡ 1/10 homework
+```
+```math
+Tom and Jerry's 1 hour of work combined ≡ (1/15 + 1/10)homework = 1/6 homework
+```
+```math
+1 homework ≡ 6 hours
+```
+# Percentage
+
+```
+You give a test on 40 marks. You score was 32. What would be the score if  the test was taken with 100 marks.
+```
+- Solution
+
+```math
+Out of 40 marks, you scored 32 marks
+```
+```math
+Out of 1 you scored = 32/40
+```
+```math
+Out of 100 marks, you scored = (32/40) * 100 = 80 marks
+```
+
+```
+A clothing store is selling one of their most popular products at 870Tk after 40% discount. What was the original price?
+```
+- Solution
+
+```math
+The discounted price = x * (100-40)% = x * 60/100 = 870
+```
+```math
+The original price = 870 * 100/60 = 1450
+```
+
+```
+The price of oil increased by 25% and then decreased by 15%. What is the net percentage of increase or decrease in oil price?
+```
+- Solution
+
+```
+Let's assume the initial price was 100
+Increase by 25% = 100 * 125/100 = 125
+Decrease by 15% = 125 * 85/100 = 106.25
+Net increase = 106.25 - 100 = 6.25 if the original price was 100(per hundred)
+Answer : Increase by 6.25%
+```
+# Capital And Interest
+
+
+- Capital = Principal Amount
+- Interest = Interest Amount
+- Rate = Interest Rate
+
+- Simple Interest vs. Compound Interest
+- Simple Interest
+
+```math
+I = P* n * r
+```
+```math
+I = Principal Amount * Time unit * Interest Rate
+```
+```
+Your frind deposited 7000Tk in Sonali Bank for 3 years which earn him an interest of 8%. What is the amount he gets after 3 years?
+```
+- Solution
+
+```math
+I = P * n * r
+```
+```math
+I = 7000 * 3 * 8/100 = 1680
+```
+
+```
+You deposit 5400Tk and got bank an amount of 6000Tk after 2 years. Find the simple interest rate of the bank.
+```
+- Solution
+
+```math
+I = P * n * r
+```
+```math
+I = 5400 * 2 * r
+```
+```math
+6000 = 5400 * 2 * r
+```
+```math
+6000 = 10800 * r
+```
+```math
+r = 6000/10800 = 5.55%
+```
+- Compound Interest
+
+```math
+A = P * (1 + r)^n
+```
+```math
+After n years, the amount of money you have = Principal Amount * (1 + Interest Rate)^n
+```
+```
+You deposit 5000Tk in a bank which gives you 10% interest per year. How much money will you have after 3 years?
+```
+- Solution
+
+```math
+A = P * (1 + r)^n
+```
+```math
+A = 5000 * (1 + 10/100)^3
+```
+```math
+A = 5000 * (1.1)^3
+```
+```math
+A = 5000 * 1.331
+```
+```math
+A = 5000 * 1331/1000
+```
+```math
+A = 6655Tk
+```
+
+# Mean & Median
+
+- Mean is the average of a set of numbers. It is calculated by adding all the numbers and dividing the sum by the total number of numbers in the set.
+
+Mean Formula
+
+```math
+\overline{x}= \frac{1}{n} \sum_{i=1}^{n} x_{i}
+```
+- x is the set of numbers
+- n is the total number of numbers in the set
+- i is the position of the number in the set
+- Summation means adding all the numbers in the set
+
+```
+You and your friends went to a restaurant. Everyone puts their money on the table and order the same meal for all within budget. How much is the maximum badget for each person?
+- Money collected from 6 friends 103, 210, 57, 85, 500, 180
+```
+- Solution
+
+```math
+Everyone has a budget of at most the average amount = (103 + 210 + 57 + 85 + 500 + 180)/6 = 189.167
+```
+- Median is the middle number in a set of numbers.
+  If count of numbers is odd, then the middle number is the median.
+  If count of numbers is even, then the median is the average of the two middle numbers.
+
