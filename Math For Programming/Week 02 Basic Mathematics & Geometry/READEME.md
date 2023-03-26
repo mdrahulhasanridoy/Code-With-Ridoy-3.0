@@ -391,16 +391,16 @@ Length of diagonal = \sqrt{2} * (Side_length)
 # Pythagorean Theorem
 
 ```
-	  A
+      A
      / \
     /   \
    /     \
   /       \
- B\	      /D───────E
+ B\       /D───────E
    \     / |       |
     \   /  |       |
-	 \ /   |       |
-	  C────F───────G
-	  |    |
-	  H────I
+     \ /   |       |
+      C────F───────G
+      |    |
+      H────I
 ```
