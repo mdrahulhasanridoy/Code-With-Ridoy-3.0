@@ -418,6 +418,27 @@ Length of diagonal = \sqrt{2} * (Side_length)
 - Right-angle triangle and square
 	Example:
 	```math 
-	5^2 = 3^2 + 4^2
+	5^2 = 3^2 + 4^2 ;
 	13^2 = 5^2 + 12^2
 	```
+# Distance Between Two Points
+
+- Can you apply Pythagorean Theorem to get the distance between A and B?
+
+```
+A(x1, y1)
+B(x2, y2)
+   Y|
+  y2|──              B(x2, y2)
+    |               / |
+    |              /  |
+    |             /   |
+    |            /    |
+  y1|──  (x1,y1)A─────90°
+(0,0)───────────|─────|─────────────
+                x1    x2           X
+```
+- Distance between A and B
+```math
+d = \sqrt{(x2-x1)^2 + (y2-y1)^2}
+```
