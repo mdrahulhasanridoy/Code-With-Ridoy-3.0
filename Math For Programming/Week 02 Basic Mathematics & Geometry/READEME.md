@@ -398,9 +398,26 @@ Length of diagonal = \sqrt{2} * (Side_length)
   /       \
  B\       /D───────E
    \     / |       |
-    \   /  |       |
+    \  c/  |b      |
      \ /   |       |
       C────F───────G
-      |    |
+      | a  |
       H────I
 ```
+- A, B, C, D, E, F, G, H, I are points
+- AB, BC, CD, DE, EF, FG, FH, HI are line segments
+- ABC, BCD, CDE, DEF, EFG, FGH, FHI are triangles
+- ABCD, CFHI, DEFG are squares
+
+- Pythagorean Theorem
+
+```math
+-c^2 = a^2 + b^2
+```
+- Pythagorean Theorem is used to find the length of the hypotenuse of a right-angle triangle.
+- Right-angle triangle and square
+	Example:
+	```math 
+	5^2 = 3^2 + 4^2
+	13^2 = 5^2 + 12^2
+	```
