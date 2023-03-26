@@ -759,7 +759,7 @@ Mean Formula
 You and your friends went to a restaurant. Everyone puts their money on the table and order the same meal for all within budget. How much is the maximum badget for each person?
 - Money collected from 6 friends 103, 210, 57, 85, 500, 180
 ```
-- Solution
+**- Solution**
 
 ```math
 Everyone has a budget of at most the average amount = (103 + 210 + 57 + 85 + 500 + 180)/6 = 189.167
@@ -768,3 +768,111 @@ Everyone has a budget of at most the average amount = (103 + 210 + 57 + 85 + 500
   If count of numbers is odd, then the middle number is the median.
   If count of numbers is even, then the median is the average of the two middle numbers.
 
+```
+```
+8, 7, 3, 2, 10
+Sort: 2, 3, 7, 8, 10
+Median = 7
+
+8, 7, 3, 2, 10, 1
+Sort: 1, 2, 3, 7, 8, 10
+Median = (3 + 7)/2 = 5
+```
+```
+You try to walk everyday around 4km. Here is history of ten days of your walking.
+- 3.5km, 4.4km, 5k.m, 4.5km, 24km, 5km, 5.5km, 5km, 6.5km.
+
+```
+Mean: (3.5 + 4.4 + 5 + 4.5 + 24 + 5 + 5.5 + 5 + 6.5)/9 = 6.5km
+
+- Let's look at median
+Sort: 3.5, 4.4, 4.5, 5, 5, 5.5, 6.5, 24
+Median = (5 + 5)/2 = 5km
+```
+**Median connot be deviated as much as mean by some outliers.**
+
+# Combinatorics
+
+- Number of ways to choose or arrange objects
+
+```
+How many ways are there to choose r objects from a collection of n objects?
+```
+```math
+^{n}C_{r} = ?
+```
+How many ways are there to arrange r objects from a collection of n objects?
+```math
+^{n}P_{r} = ?
+```
+# nPr
+
+- You have n objects in hand ( all different )
+- You have r slots to put them (r ≤ n) in order
+
+```
+Answering order in an exam to answer 4 out of 6 questions.
+```
+**Number of ways to arrange 4 questions out of:**
+```math
+6 * 5 * 4 * 3 = 360
+```
+**But you can write it as:**
+```math
+\frac{(6*5*4*3*2*1)}{(2*1)} = \frac{6!}{2!}
+```
+- Number of permutations :
+```math
+n * (n-1) * (n-2) * (n-3) * ... * (n-r+1)
+```
+Or.
+```math
+\frac{n * (n-1) * (n-2) *...* (n-r+1) * (n-r) *...* 1}{(n-r) *...* 1} = \frac{n!}{(n-r)!}
+```
+
+```
+Answering order in an exam to answer 4 out of 6 questions.
+```
+**Number of ways to arrange 4 questions out of:**
+```math
+^{n}P_{r} = \frac{n!}{(n-r)!} = \frac{6!}{(6-4)!} = \frac{6!}{2!} = 360
+```
+
+```
+Batting order of 11 players cricket match from a squad of 15 players?
+```
+```math
+\begin{align*}
+r &= 11 \\
+n &= 15 \\
+^{n}P_{r} &= \frac{n!}{(n-r)!} = \frac{15!}{(15-11)!} = \frac{15!}{4!} = 1365
+\end{align*}
+```
+
+# nCr
+
+- You have n objects in hand ( all different )
+- You have r slots to put them (r ≤ n) [ order doesn't matter ]
+- You can choose any r objects from n objects
+
+- Number of permutations :
+```math
+^{n}P_{r} = \frac{n * (n-1) * (n-2) *...* (n-r+1)}
+```
+- Each r! corresponds to the same choice
+
+```math
+^{n}C_{r} = ^{n}P_{r} / r! = \frac{n!}{r! * (n-r)!}
+```
+
+```
+Batting order of 11 players cricket match from a squad of 15 players?
+```
+```math
+\begin{align*}
+r &= 11 \\
+n &= 15 \\
+^{n}C_{r} &= \frac{n!}{r! * (n-r)!} = \frac{15!}{11! * (15-11)!} = \frac{15!}{11! * 4!} = 3003
+\end{align*}
+```
+# Probability
