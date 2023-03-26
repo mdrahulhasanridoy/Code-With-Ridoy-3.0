@@ -418,7 +418,9 @@ Length of diagonal = \sqrt{2} * (Side_length)
 - Right-angle triangle and square
 	Example:
 	```math 
-	5^2 = 3^2 + 4^2 ;
+	5^2 = 3^2 + 4^2
+	```
+	```math
 	13^2 = 5^2 + 12^2
 	```
 # Distance Between Two Points
@@ -441,4 +443,36 @@ B(x2, y2)
 - Distance between A and B
 ```math
 d = \sqrt{(x2-x1)^2 + (y2-y1)^2}
+```
+# Rectangle
+
+- 4 sides and 4 line segments
+- Opposite sides are equal
+- Opposite angles are equal
+- Sum of all angles is 360 degrees
+
+```
+A────────B
+│        │
+C────────D
+```
+```math
+Area = Length * Height
+```
+# Circle
+
+- 1 point and 1 line segment
+- 360 degrees
+- 2π radians
+
+```mermaid
+pie title 360 degrees
+    "Full rotation" : 360
+```
+```mermaid
+pie title 2π radians
+	"Full rotation" : 2π
+```
+```math
+Area = π * (Radius)^2
 ```
