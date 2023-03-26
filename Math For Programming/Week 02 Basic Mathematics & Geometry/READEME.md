@@ -511,7 +511,6 @@ S² = 1 + 1 + 2 + 3 + 5 + 8 + 13 + ...
 - Easy way to solve this problem
 
 ```
-```
 1 + 2 + 3 + 4 + 5 = ?
 Let,
 ```
@@ -526,10 +525,11 @@ S = 5 + 4 + 3 + 2 + 1
 ```
 ```math
 2S = 6*5
+```
 ```math
 S = 30
 ```
-- Advanced way to solve this problem
+- **Advanced way to solve this problem**
 
 ```math
 S = 1 + 2 + 3 + ... + N
@@ -541,8 +541,8 @@ S = N + (N-1) + (N-2) + ... + 1
 (+),2S = (N+1) + (N+1) + (N+1) + ... + (N+1)
 ```
 ```math
-2S = (N+1) * N
+2S = (N+1)*N
 ```
 ```math
-S = (N+1) * N / 2
+S = (N+1)*N / 2
 ```
