@@ -769,7 +769,6 @@ Everyone has a budget of at most the average amount = (103 + 210 + 57 + 85 + 500
   If count of numbers is even, then the median is the average of the two middle numbers.
 
 ```
-```
 8, 7, 3, 2, 10
 Sort: 2, 3, 7, 8, 10
 Median = 7
@@ -778,8 +777,11 @@ Median = 7
 Sort: 1, 2, 3, 7, 8, 10
 Median = (3 + 7)/2 = 5
 ```
+
 ```
 You try to walk everyday around 4km. Here is history of ten days of your walking.
+```
+
 - 3.5km, 4.4km, 5k.m, 4.5km, 24km, 5km, 5.5km, 5km, 6.5km.
 
 ```
@@ -905,8 +907,150 @@ What is the probability of getting exactly 2 heads if you throw three coins?
 - Outcomes of single coin: H, T
 - Outcomes of Two coins: HH, HT, TH, TT
 
-| | H | T |
+| | **H** | **T** |
 | --- | --- | --- |
-| H | HH | HT |
-| T | TH | TT |
+| **H** | HH | HT |
+| **T** | TH | TT |
+
+- Outcomes of Three coins: HHH, HHT, HTH, HTT, THH, THT, TTH, TTT
+
+| | **HH** | **HT** | **TH** | **TT** |
+| --- | --- | --- | --- | --- |
+| **H** | HHH | HHT | HTH | HTT |
+| **T** | THH | THT | TTH | TTT |
+
+```math
+P = \frac{3}{8} = 0.375
+```
+
+- You can do it without using a table
+
+Number of possible outcomes: 
+```math
+2 * 2 * 2 = 8
+```
+- Outcomes with exactly 2 heads out of 3 trails:
+
+	- Choose 2 positions out of 3 for H
+
+```math
+\begin{align*}
+^{3}C_{2} &= \frac{3!}{2! * (3-2)!} = \frac{3!}{2! * 1!} = \frac{3!}{2!} = 3 \\
+P &= \frac{3}{8}
+\end{align*}
+```
+# Binary <--> Octal
+
+- 000 to 111 = 0 to 7 in octal
+- 0000 to 1111 = 0 to F in hexadecimal
+
+```
+Binary 10111011 to Octal
+```
+```math
+\begin{align*}
+010 & 111 & 011 \\
+2 & 7 & 3 \\
+\end{align*}
+```
+
+| 010 | 111 | 011 | **Binary** |
+| --- | --- | --- | --- |
+|⬇️|⬇️|⬇️|  |
+| 2 | 7 | 3 | **Octal** |
+
+```
+Octal 314 to Binary
+```
+```math
+\begin{align*}
+3 & 1 & 4 \\
+011 & 001 & 100 \\
+\end{align*}
+```
+
+| 3 | 1 | 4 | **Octal** |
+| --- | --- | --- | --- |
+|⬇️|⬇️|⬇️|  |
+| 011 | 001 | 100 | **Binary** |
+
+# Binary <--> Hexadecimal
+
+- 0000 to 1111 = 0 to F in hexadecimal
+
+```
+Binary 10111011 to Hexadecimal
+```
+```math
+\begin{align*}
+0101 & 1011 \\
+5 & B \\
+\end{align*}
+```
+
+| 0101 | 1011 | **Binary** |
+| --- | --- | --- |
+|⬇️|⬇️|  |
+| 5 | B | **Hexadecimal** |
+
+```
+Hexadecimal 5B to Binary
+```
+```math
+\begin{align*}
+5 & B \\
+0101 & 1011 \\
+\end{align*}
+```
+
+| 5 | B | **Hexadecimal** |
+| --- | --- | --- |
+|⬇️|⬇️|  |
+| 0101 | 1011 | **Binary** |
+
+# Practice Day 1
+
+```
+Convert this binary number to hexadecimal : 01110100111011
+```
+
+```math
+\begin{align*}
+01 & 1101 & 0011 & 1011 \\
+1 & D & 3 & B \\
+1D3B \\
+\end{align*}
+```
+
+| 01 | 1101 | 0011 | 1011 | **Binary** |
+| --- | --- | --- | --- | --- |
+|⬇️|⬇️|⬇️|⬇️|  |
+| 1 | D | 3 | B | **Hexadecimal** |
+
+```
+Convert this octal number to hexadecimal : 127416
+```
+
+```math
+\begin{align*}
+Convert & 127416 & to & binary \\
+1 & 2 & 7 & 4 & 1 & 6 \\
+001 & 010 & 111 & 100 & 001 & 110 \\
+0010101111000110 \\
+\end{align*}
+```
+- 0010101111000110 binary to hexadecimal
+
+```math
+\begin{align*}
+0010 & 1011 & 1100 & 0110 \\
+2 & B & C & 6 \\
+2BC6 \\
+\end{align*}
+```
+
+| 0010 | 1011 | 1100 | 0110 | **Binary** |
+| --- | --- | --- | --- | --- |
+|⬇️|⬇️|⬇️|⬇️|  |
+| 2 | B | C | 6 | **Hexadecimal** |
 
