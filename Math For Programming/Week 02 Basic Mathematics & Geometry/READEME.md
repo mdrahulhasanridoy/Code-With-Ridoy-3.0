@@ -949,8 +949,8 @@ Binary 10111011 to Octal
 ```
 ```math
 \begin{align*}
-010 & 111 & 011 \\
-2 & 7 & 3 \\
+010 && 111 && 011 \\
+2 && 7 && 3 \\
 \end{align*}
 ```
 
@@ -964,8 +964,8 @@ Octal 314 to Binary
 ```
 ```math
 \begin{align*}
-3 & 1 & 4 \\
-011 & 001 & 100 \\
+3 && 1 && 4 \\
+011 && 001 && 100 \\
 \end{align*}
 ```
 
@@ -983,8 +983,8 @@ Binary 10111011 to Hexadecimal
 ```
 ```math
 \begin{align*}
-0101 & 1011 \\
-5 & B \\
+0101 && 1011 \\
+5 && B \\
 \end{align*}
 ```
 
@@ -998,8 +998,8 @@ Hexadecimal 5B to Binary
 ```
 ```math
 \begin{align*}
-5 & B \\
-0101 & 1011 \\
+5 && B \\
+0101 && 1011 \\
 \end{align*}
 ```
 
@@ -1016,8 +1016,8 @@ Convert this binary number to hexadecimal : 01110100111011
 
 ```math
 \begin{align*}
-01 & 1101 & 0011 & 1011 \\
-1 & D & 3 & B \\
+01 && 1101 && 0011 && 1011 \\
+1 && D && 3 && B \\
 1D3B \\
 \end{align*}
 ```
@@ -1033,18 +1033,18 @@ Convert this octal number to hexadecimal : 127416
 
 ```math
 \begin{align*}
-Convert & 127416 & to & binary \\
-1 & 2 & 7 & 4 & 1 & 6 \\
-001 & 010 & 111 & 100 & 001 & 110 \\
-0010101111000110 \\
+Convert && 127416 && to && binary \\
+1 && 2 && 7 && 4 && 1 && 6 \\
+001 && 010 && 111 && 100 && 001 && 110 \\
+0010101111000110  \\
 \end{align*}
 ```
 - 0010101111000110 binary to hexadecimal
 
 ```math
 \begin{align*}
-0010 & 1011 & 1100 & 0110 \\
-2 & B & C & 6 \\
+0010 && 1011 && 1100 && 0110 \\
+2 && B && C && 6 \\
 2BC6 \\
 \end{align*}
 ```
@@ -1053,4 +1053,22 @@ Convert & 127416 & to & binary \\
 | --- | --- | --- | --- | --- |
 |⬇️|⬇️|⬇️|⬇️|  |
 | 2 | B | C | 6 | **Hexadecimal** |
+
+```
+If you throw a dice and toss a coin at the same time, what is the probability that you will get Head (coin) and less than 3 (dice)?
+```
+
+- Outcomes of single coin: H, T
+- Outcomes of single dice: 1, 2, 3, 4, 5, 6
+
+- Probability of getting Head (coin) and less than 3 (dice)
+
+```math
+\begin{align*}
+P &= \frac{Number of ways it can happen}{Number of all possible outcomes} \\
+&= \frac{1 * 2}{6 * 2} \\
+&= \frac{1}{6} \\
+&= 0.1667
+\end{align*}
+```
 
