@@ -1057,18 +1057,24 @@ Convert && 127416 && to && binary \\
 ```
 If you throw a dice and toss a coin at the same time, what is the probability that you will get Head (coin) and less than 3 (dice)?
 ```
-
 - Outcomes of single coin: H, T
 - Outcomes of single dice: 1, 2, 3, 4, 5, 6
 
-- Probability of getting Head (coin) and less than 3 (dice)
+- Probability of getting Head (coin) :
 
 ```math
-\begin{align*}
-P &= \frac{Number of ways it can happen}{Number of all possible outcomes} \\
-&= \frac{1 * 2}{6 * 2} \\
-&= \frac{1}{6} \\
-&= 0.1667
-\end{align*}
+P(H) = \frac{1}{2}
+```
+
+- Probability of getting less than 3 (dice) :
+
+```math
+P(<3) = \frac{2}{6}
+```
+
+- Probability of getting Head (coin) and less than 3 (dice) :
+
+```math
+P(H and <3) = \frac{1}{2} * \frac{2}{6} = \frac{1}{6}
 ```
 
