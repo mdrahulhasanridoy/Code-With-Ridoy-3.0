@@ -1099,19 +1099,17 @@ P(H and <3) = \frac{1}{2} * \frac{2}{6} = \frac{1}{6}
 Section A and B have 25 students and 20 students, respectively. If a team of 11 players need to be formed and 6 students must be from A and the others from B, how many ways are there to form the team? How many batting order would be there?
 
 ```
-
+Number of ways to form team
 ```math
 \begin{align*}
-Number && of && ways && to && form && team \\
 = \frac{25!}{6! * (25-6)!} * \frac{20!}{5! * (20-5)!} \\
 = 177100 * 15504 \\
 = 2742705104 && ways \\
 \end{align*}
 ```
-
+Number of batting order for 11 players
 ```math
 \begin{align*}
-Number && of && batting && order && for && 11 && players \\
 = 11! \\
 = 11 * 10 * 9 * 8 * 7 * 6 * 5 * 4 * 3 * 2 * 1 \\
 = 39916800 \\
