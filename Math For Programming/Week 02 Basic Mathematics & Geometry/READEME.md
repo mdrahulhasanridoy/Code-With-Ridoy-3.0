@@ -1085,14 +1085,14 @@ P(H and <3) = \frac{1}{2} * \frac{2}{6} = \frac{1}{6}
 ```math
 \begin{align*}
 10 && people \\
-\frac{10!}{2! * (10-2)!} && handshakes \\
-\frac{10!}{2! * 8!} && handshakes \\
-\frac{10!}{2!} && handshakes \\
-\frac{10!}{2! * 1!} && handshakes \\
-\frac{10!}{2!} && handshakes \\
-\frac{10!}{2} && handshakes \\
-\frac{10 * 9}{2} && handshakes \\
-45 && handshakes \\
+= \frac{10!}{2! * (10-2)!} \\
+= \frac{10!}{2! * 8!} \\
+= \frac{10!}{2!} \\
+= \frac{10!}{2! * 1!} \\
+= \frac{10!}{2!} \\
+= \frac{10!}{2} \\
+= \frac{10 * 9}{2} \\
+= 45 \\
 \end{align*}
 ```
 ```
