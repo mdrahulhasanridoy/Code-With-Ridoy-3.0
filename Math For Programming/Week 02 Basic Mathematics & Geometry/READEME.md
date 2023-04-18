@@ -1103,17 +1103,17 @@ Section A and B have 25 students and 20 students, respectively. If a team of 11 
 ```math
 \begin{align*}
 Number && of && ways && to && form && team \\
-\frac{25!}{6! * (25-6)!} && \frac{20!}{5! * (20-5)!} \\
-177100 * 15504 && ways \\
-2742705104 \\
+= \frac{25!}{6! * (25-6)!} * \frac{20!}{5! * (20-5)!} \\
+= 177100 * 15504 \\
+= 2742705104 && ways \\
 \end{align*}
 ```
 
 ```math
 \begin{align*}
 Number && of && batting && order && for && 11 && players \\
-11! \\
-11 * 10 * 9 * 8 * 7 * 6 * 5 * 4 * 3 * 2 * 1 \\
-39916800 \\
+= 11! \\
+= 11 * 10 * 9 * 8 * 7 * 6 * 5 * 4 * 3 * 2 * 1 \\
+= 39916800 \\
 \end{align*}
 ```
