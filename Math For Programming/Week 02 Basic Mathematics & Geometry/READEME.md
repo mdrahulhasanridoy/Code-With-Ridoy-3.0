@@ -859,7 +859,7 @@ n &= 15 \\
 
 - Number of permutations :
 ```math
-^{n}P_{r} = \frac{n * (n-1) * (n-2) *...* (n-r+1)}
+^{n}P_{r} = {n * (n-1) * (n-2) *...* (n-r+1)}
 ```
 - Each r! corresponds to the same choice
 
