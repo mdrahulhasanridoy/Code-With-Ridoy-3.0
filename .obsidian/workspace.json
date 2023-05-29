@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Math For Programming/Conceptual Session/2-1 Week 02 Conceptual Session 01/READEME.md",
+                "file": "Introduction To Programming Language/Week 01 Introduction To Progrqamming In C/README.md",
                 "mode": "source",
                 "source": false
               }
@@ -64,6 +64,14 @@
               "type": "starred",
               "state": {}
             }
+          },
+          {
+            "id": "f52a561f6a626164",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
           }
         ]
       }
@@ -86,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Math For Programming/Conceptual Session/2-1 Week 02 Conceptual Session 01/READEME.md",
+                "file": "Introduction To Programming Language/Week 01 Introduction To Progrqamming In C/README.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +111,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Math For Programming/Conceptual Session/2-1 Week 02 Conceptual Session 01/READEME.md",
+                "file": "Introduction To Programming Language/Week 01 Introduction To Progrqamming In C/README.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +134,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Math For Programming/Conceptual Session/2-1 Week 02 Conceptual Session 01/READEME.md"
+                "file": "Introduction To Programming Language/Week 01 Introduction To Progrqamming In C/README.md"
               }
             }
           }
@@ -139,32 +147,34 @@
   },
   "left-ribbon": {
     "hiddenItems": {
+      "table-editor-obsidian:Advanced Tables Toolbar": false,
       "switcher:Open quick switcher": false,
       "graph:Open graph view": false,
       "canvas:Create new canvas": false,
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
-      "command-palette:Open command palette": false,
-      "table-editor-obsidian:Advanced Tables Toolbar": false
+      "command-palette:Open command palette": false
     }
   },
   "active": "0698253955013914",
   "lastOpenFiles": [
+    "Math For Programming/Conceptual Session/2-1 Week 02 Conceptual Session 01/READEME.md",
+    "Introduction To Programming Language/Week 01 Introduction To Progrqamming In C/hello_world.c",
+    "Introduction To Programming Language/Week 02 Loop and Online Judges/README.md",
+    "Introduction To Programming Language/Week 01 Introduction To Progrqamming In C/README.md",
+    "Introduction To Programming Language/Week 02 Loop and Online Judges",
+    "Week 02 Loop and Online Judges",
+    "Introduction To Programming Language/Week 01 Introduction To Progrqamming In C/Week 02 Loop and Online Judges",
+    "Introduction To Programming Language/Week 01 Introduction To Progrqamming In C",
+    "Introduction To Programming Language",
     "Untitled.md",
     "Codeforces/output",
     "Math For Programming/Week 02 Basic Mathematics & Geometry/output/100 times print.exe",
     "Math For Programming/Week 01 Introduction to Computer, Number System and Mathematics/Mid Term Exam/READEME.md",
-    "Math For Programming/Conceptual Session/2-1 Week 02 Conceptual Session 01/READEME.md",
     "Math For Programming/Week 02 Basic Mathematics & Geometry/output",
     "Math For Programming/Week 02 Basic Mathematics & Geometry/READEME.md",
     "Math For Programming/Week 02 Basic Mathematics & Geometry/100 times print.c",
     "Math For Programming/Week 01 Introduction to Computer, Number System and Mathematics/README.md",
-    "Math For Programming/Week 01 Introduction to Computer, Number System and Mathematics/Mid Term Exam",
-    "Math For Programming/Conceptual Session/2-2 Week 02 Conceptual Session 02",
-    "Math For Programming/Conceptual Session/2-1 Week 02 Conceptual Session 01",
-    "Math For Programming/Week 02 Basic Mathematics & Geometry",
-    "Math For Programming/Week 01 Introduction to Computer, Number System and Mathematics",
-    "Math For Programming/Conceptual Session",
     "Codeforces/Report Writing.md",
     "Codeforces/READEME.md",
     "README.md",
