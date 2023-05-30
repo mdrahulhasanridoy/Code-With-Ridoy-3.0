@@ -123,7 +123,7 @@ Hi there /\.      I hope you are doing great and practicing well.
 Now this is a simple task you need to do.       Just care for the indentation.
 Show 100% of sincerity.
 ```
-[Solution]()
+[Solution](https://github.com/mdrahulhasanridoy/Code-With-Ridoy-3.0/blob/2f7b0a13e3149352488981c60dd93b10fdfbe190/Introduction%20To%20Programming%20Language/Week%2001%20Introduction%20To%20Progrqamming%20In%20C/Problem%201.c)
 
 ### Problem 2
 
@@ -134,7 +134,7 @@ Write a C program to declare two integer variables and set values 10 and 20 resp
 | ----------- | ------------- |
 | No Input  | 20   10|
 
-[Solution]()
+[Solution](https://github.com/mdrahulhasanridoy/Code-With-Ridoy-3.0/blob/2f7b0a13e3149352488981c60dd93b10fdfbe190/Introduction%20To%20Programming%20Language/Week%2001%20Introduction%20To%20Progrqamming%20In%20C/Problem%202.c)
 ### Problem 3
 
 ```
@@ -144,7 +144,7 @@ Write a C program to take one positive integer as input and print double of it.
 | ----------- | ------------- |
 | 5 | 10|
 
-[Solution]()
+[Solution](https://github.com/mdrahulhasanridoy/Code-With-Ridoy-3.0/blob/2f7b0a13e3149352488981c60dd93b10fdfbe190/Introduction%20To%20Programming%20Language/Week%2001%20Introduction%20To%20Progrqamming%20In%20C/Problem%203.c)
 ### Problem 4
 
 ```
@@ -154,7 +154,7 @@ Write a C program to take two positive integers as input and show the summation,
 | ----------- | ------------- |
 |  5 2|  7 3 10|
 
-[Solution]()
+[Solution](https://github.com/mdrahulhasanridoy/Code-With-Ridoy-3.0/blob/2f7b0a13e3149352488981c60dd93b10fdfbe190/Introduction%20To%20Programming%20Language/Week%2001%20Introduction%20To%20Progrqamming%20In%20C/Problem%204.c)
 ### Problem 5
 
 ```
@@ -168,7 +168,7 @@ Write a C program to take a character variable and input and show the correspond
 | a            | 97            |
 | d            | 100           |
 
-[Solution]()
+[Solution](https://github.com/mdrahulhasanridoy/Code-With-Ridoy-3.0/blob/2f7b0a13e3149352488981c60dd93b10fdfbe190/Introduction%20To%20Programming%20Language/Week%2001%20Introduction%20To%20Progrqamming%20In%20C/Problem%205.c)
 ### Problem 6
 
 ```
@@ -178,4 +178,4 @@ Write a C program to take integer value as input and print that value. There is 
 | ----------- | ------------- |
 | 10% | 10|
 
-[Solution]() 
+[Solution](https://github.com/mdrahulhasanridoy/Code-With-Ridoy-3.0/blob/2f7b0a13e3149352488981c60dd93b10fdfbe190/Introduction%20To%20Programming%20Language/Week%2001%20Introduction%20To%20Progrqamming%20In%20C/Problem%206.c) 
