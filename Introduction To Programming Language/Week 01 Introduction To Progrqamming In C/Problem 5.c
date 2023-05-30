@@ -8,5 +8,5 @@ int main()
 
     //Show the corresponding ASCII value of that character
     printf("%d",ch);
-    return 0;
+return 0;
 }

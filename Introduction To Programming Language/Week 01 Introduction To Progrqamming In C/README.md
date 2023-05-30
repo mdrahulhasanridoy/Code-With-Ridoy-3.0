@@ -179,3 +179,4 @@ Write a C program to take integer value as input and print that value. There is 
 | 10% | 10|
 
 [Solution](https://github.com/mdrahulhasanridoy/Code-With-Ridoy-3.0/blob/2f7b0a13e3149352488981c60dd93b10fdfbe190/Introduction%20To%20Programming%20Language/Week%2001%20Introduction%20To%20Progrqamming%20In%20C/Problem%206.c) 
+
